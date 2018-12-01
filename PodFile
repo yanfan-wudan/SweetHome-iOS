@@ -1,5 +1,6 @@
 target 'SweetHome' do
 
 pod 'Masonry'
+pod 'YNPageViewController'
 
 end

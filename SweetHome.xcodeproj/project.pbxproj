@@ -141,10 +141,10 @@
 			isa = PBXGroup;
 			children = (
 				489A7A8521B1601300361159 /* AppConfiguration */,
-				489A7A7E21B15D8100361159 /* Supporting Files */,
 				489A7A7C21B15D1300361159 /* AppDelegate */,
 				489A7A7D21B15D2D00361159 /* Main */,
 				489A7A9521B164B400361159 /* Module */,
+				489A7A7E21B15D8100361159 /* Supporting Files */,
 				489A7AA721B2542200361159 /* Tools */,
 			);
 			path = SweetHome;

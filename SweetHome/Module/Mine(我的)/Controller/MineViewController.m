@@ -10,23 +10,29 @@
 
 @interface MineViewController ()
 
+@property (nonatomic, copy) NSArray<NSString *> *titleArray;
+
 @end
 
 @implementation MineViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+   
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)initializationDefaultData {
+    self.titleArray = @[@"工匠认证", @"我的积分", @"我的小窝", @"二手商品", @"用户反馈", @"系统设置"];
 }
-*/
+
+- (void)setupSubviews {
+    self.wdNavigationBar.backgroundColor = RGBCOLOR(66, 146, 183);
+    [self.wdNavigationBar.leftButton setTitle:@" 签到 " forState:UIControlStateNormal];
+    [self.wdNavigationBar.leftButton setImage:nil forState:UIControlStateNormal];
+    [self.wdNavigationBar.leftButton setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
+    self.wdNavigationBar.leftButton.layer.borderColor = UIColor.whiteColor.CGColor;
+    self.wdNavigationBar.leftButton.layer.cornerRadius = 5;
+    self.wdNavigationBar.leftButton.layer.borderWidth = 1;
+}
 
 @end
