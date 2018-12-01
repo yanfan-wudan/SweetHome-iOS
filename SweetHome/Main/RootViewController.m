@@ -30,7 +30,9 @@
     
     [self setupSubviews];
     
-    [self setupSubviewsConstraints];    
+    [self setupSubviewsConstraints];
+    
+    self.view.backgroundColor = UIColor.whiteColor;
 }
 
 #pragma mark - UITableViewDataSource

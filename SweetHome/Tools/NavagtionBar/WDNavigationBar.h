@@ -21,6 +21,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) UIButton *rightButton;
 @property (nonatomic, strong) UIButton *rightSecondButton;
 
+@property (nonatomic, copy) void (^ leftButtonBlock)(void);
+@property (nonatomic, copy) void (^ leftSecondButtonBlock)(void);
+@property (nonatomic, copy) void (^ centerButtonBlock)(void);
+@property (nonatomic, copy) void (^ rightButtonBlock)(void);
+@property (nonatomic, copy) void (^ rightSecondButtonBlock)(void);
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -26,6 +26,11 @@
 		489A7A9421B164AF00361159 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A7A9321B164AF00361159 /* MineViewController.m */; };
 		489A7AA221B1672C00361159 /* UIImage+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A7AA121B1672C00361159 /* UIImage+Addition.m */; };
 		489A7AA621B2172600361159 /* WDNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A7AA521B2172600361159 /* WDNavigationBar.m */; };
+		489A7AB121B25EA100361159 /* MineHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A7AB021B25EA100361159 /* MineHeaderView.m */; };
+		489A7AB621B268ED00361159 /* MineOperationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A7AB521B268ED00361159 /* MineOperationView.m */; };
+		489A7AB921B26F3100361159 /* MineOrderOperationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A7AB821B26F3100361159 /* MineOrderOperationView.m */; };
+		489A7ABC21B26FD600361159 /* UIButton+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A7ABB21B26FD600361159 /* UIButton+Addition.m */; };
+		489A7ABF21B271B900361159 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A7ABE21B271B900361159 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +90,17 @@
 		489A7AA121B1672C00361159 /* UIImage+Addition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Addition.m"; sourceTree = "<group>"; };
 		489A7AA421B2172600361159 /* WDNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDNavigationBar.h; sourceTree = "<group>"; };
 		489A7AA521B2172600361159 /* WDNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDNavigationBar.m; sourceTree = "<group>"; };
+		489A7AAF21B25EA100361159 /* MineHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineHeaderView.h; sourceTree = "<group>"; };
+		489A7AB021B25EA100361159 /* MineHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineHeaderView.m; sourceTree = "<group>"; };
+		489A7AB321B266E700361159 /* UserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		489A7AB421B268ED00361159 /* MineOperationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineOperationView.h; sourceTree = "<group>"; };
+		489A7AB521B268ED00361159 /* MineOperationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineOperationView.m; sourceTree = "<group>"; };
+		489A7AB721B26F3100361159 /* MineOrderOperationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineOrderOperationView.h; sourceTree = "<group>"; };
+		489A7AB821B26F3100361159 /* MineOrderOperationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineOrderOperationView.m; sourceTree = "<group>"; };
+		489A7ABA21B26FD600361159 /* UIButton+Addition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Addition.h"; sourceTree = "<group>"; };
+		489A7ABB21B26FD600361159 /* UIButton+Addition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Addition.m"; sourceTree = "<group>"; };
+		489A7ABD21B271B900361159 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		489A7ABE21B271B900361159 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		D5E2E995D18CE3A12FEE354E /* libPods-SweetHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SweetHome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3988129CD872449335AD8B8 /* Pods-SweetHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SweetHome/Pods-SweetHome.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -209,6 +225,7 @@
 			children = (
 				489A7A7A21B15CC900361159 /* PrefixHeader.pch */,
 				489A7A7B21B15D0200361159 /* MacroDefinition.h */,
+				489A7AB321B266E700361159 /* UserInfo.h */,
 			);
 			path = AppConfiguration;
 			sourceTree = "<group>";
@@ -260,6 +277,7 @@
 		489A7A9A21B1652500361159 /* Mine(我的) */ = {
 			isa = PBXGroup;
 			children = (
+				489A7AB221B25EB800361159 /* View */,
 				489A7A9F21B1655A00361159 /* Controller */,
 			);
 			path = "Mine(我的)";
@@ -306,6 +324,8 @@
 			children = (
 				489A7A9221B164AF00361159 /* MineViewController.h */,
 				489A7A9321B164AF00361159 /* MineViewController.m */,
+				489A7ABD21B271B900361159 /* LoginViewController.h */,
+				489A7ABE21B271B900361159 /* LoginViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -315,6 +335,8 @@
 			children = (
 				489A7AA021B1672C00361159 /* UIImage+Addition.h */,
 				489A7AA121B1672C00361159 /* UIImage+Addition.m */,
+				489A7ABA21B26FD600361159 /* UIButton+Addition.h */,
+				489A7ABB21B26FD600361159 /* UIButton+Addition.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -335,6 +357,19 @@
 				489A7AA521B2172600361159 /* WDNavigationBar.m */,
 			);
 			path = NavagtionBar;
+			sourceTree = "<group>";
+		};
+		489A7AB221B25EB800361159 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				489A7AAF21B25EA100361159 /* MineHeaderView.h */,
+				489A7AB021B25EA100361159 /* MineHeaderView.m */,
+				489A7AB421B268ED00361159 /* MineOperationView.h */,
+				489A7AB521B268ED00361159 /* MineOperationView.m */,
+				489A7AB721B26F3100361159 /* MineOrderOperationView.h */,
+				489A7AB821B26F3100361159 /* MineOrderOperationView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		4B6F737CFE2A46E3ACD58EE8 /* Frameworks */ = {
@@ -514,12 +549,17 @@
 				489A7A8E21B1648A00361159 /* HomeCareViewController.m in Sources */,
 				489A7A7621B15C0100361159 /* RootNavigationController.m in Sources */,
 				489A7A7321B15BB600361159 /* RootTabBarController.m in Sources */,
+				489A7AB921B26F3100361159 /* MineOrderOperationView.m in Sources */,
 				489A7A8421B15DD800361159 /* RootViewController.m in Sources */,
 				489A7A4B21B15A7600361159 /* main.m in Sources */,
 				489A7AA221B1672C00361159 /* UIImage+Addition.m in Sources */,
+				489A7ABC21B26FD600361159 /* UIButton+Addition.m in Sources */,
 				489A7A9421B164AF00361159 /* MineViewController.m in Sources */,
+				489A7AB121B25EA100361159 /* MineHeaderView.m in Sources */,
 				489A7A8B21B1646B00361159 /* DecorationServiceViewController.m in Sources */,
 				489A7A7021B15AE100361159 /* AppDelegate+Initialization.m in Sources */,
+				489A7AB621B268ED00361159 /* MineOperationView.m in Sources */,
+				489A7ABF21B271B900361159 /* LoginViewController.m in Sources */,
 				489A7A8821B1644300361159 /* HomeViewController.m in Sources */,
 				489A7A9121B164A400361159 /* ShoppingMallViewController.m in Sources */,
 				489A7A3D21B15A7500361159 /* AppDelegate.m in Sources */,
