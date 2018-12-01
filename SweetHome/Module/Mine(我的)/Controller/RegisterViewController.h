@@ -1,5 +1,5 @@
 //
-//  LoginViewController.h
+//  RegisterViewController.h
 //  SweetHome
 //
 //  Created by wudan on 2018/12/1.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LoginViewController : RootViewController
+@interface RegisterViewController : RootViewController
 
 @property (nonatomic, copy) NSString *fromController;
 

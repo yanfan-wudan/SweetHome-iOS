@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4465F9E07AF79E381923E94C /* libPods-SweetHome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E2E995D18CE3A12FEE354E /* libPods-SweetHome.a */; };
+		4800CCA021B28F1100D2EE9F /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4800CC9F21B28F1100D2EE9F /* RegisterViewController.m */; };
+		4800CCA321B29FBF00D2EE9F /* FindPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4800CCA221B29FBF00D2EE9F /* FindPasswordViewController.m */; };
+		4800CCA621B2A69200D2EE9F /* FindPasswordAlterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4800CCA521B2A69200D2EE9F /* FindPasswordAlterView.m */; };
+		4800CCA921B2B7AD00D2EE9F /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4800CCA821B2B7AD00D2EE9F /* UIView+Addition.m */; };
 		489A7A3D21B15A7500361159 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A7A3C21B15A7500361159 /* AppDelegate.m */; };
 		489A7A4321B15A7500361159 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 489A7A4121B15A7500361159 /* Main.storyboard */; };
 		489A7A4521B15A7600361159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 489A7A4421B15A7600361159 /* Assets.xcassets */; };
@@ -52,6 +56,14 @@
 
 /* Begin PBXFileReference section */
 		2BFCA3068AB58C94017F98F1 /* Pods-SweetHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-SweetHome/Pods-SweetHome.release.xcconfig"; sourceTree = "<group>"; };
+		4800CC9E21B28F1100D2EE9F /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		4800CC9F21B28F1100D2EE9F /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		4800CCA121B29FBF00D2EE9F /* FindPasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindPasswordViewController.h; sourceTree = "<group>"; };
+		4800CCA221B29FBF00D2EE9F /* FindPasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindPasswordViewController.m; sourceTree = "<group>"; };
+		4800CCA421B2A69200D2EE9F /* FindPasswordAlterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindPasswordAlterView.h; sourceTree = "<group>"; };
+		4800CCA521B2A69200D2EE9F /* FindPasswordAlterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindPasswordAlterView.m; sourceTree = "<group>"; };
+		4800CCA721B2B7AD00D2EE9F /* UIView+Addition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		4800CCA821B2B7AD00D2EE9F /* UIView+Addition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
 		489A7A3821B15A7500361159 /* SweetHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweetHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		489A7A3B21B15A7500361159 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		489A7A3C21B15A7500361159 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -326,6 +338,10 @@
 				489A7A9321B164AF00361159 /* MineViewController.m */,
 				489A7ABD21B271B900361159 /* LoginViewController.h */,
 				489A7ABE21B271B900361159 /* LoginViewController.m */,
+				4800CC9E21B28F1100D2EE9F /* RegisterViewController.h */,
+				4800CC9F21B28F1100D2EE9F /* RegisterViewController.m */,
+				4800CCA121B29FBF00D2EE9F /* FindPasswordViewController.h */,
+				4800CCA221B29FBF00D2EE9F /* FindPasswordViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -335,6 +351,8 @@
 			children = (
 				489A7AA021B1672C00361159 /* UIImage+Addition.h */,
 				489A7AA121B1672C00361159 /* UIImage+Addition.m */,
+				4800CCA721B2B7AD00D2EE9F /* UIView+Addition.h */,
+				4800CCA821B2B7AD00D2EE9F /* UIView+Addition.m */,
 				489A7ABA21B26FD600361159 /* UIButton+Addition.h */,
 				489A7ABB21B26FD600361159 /* UIButton+Addition.m */,
 			);
@@ -368,6 +386,8 @@
 				489A7AB521B268ED00361159 /* MineOperationView.m */,
 				489A7AB721B26F3100361159 /* MineOrderOperationView.h */,
 				489A7AB821B26F3100361159 /* MineOrderOperationView.m */,
+				4800CCA421B2A69200D2EE9F /* FindPasswordAlterView.h */,
+				4800CCA521B2A69200D2EE9F /* FindPasswordAlterView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -545,14 +565,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4800CCA921B2B7AD00D2EE9F /* UIView+Addition.m in Sources */,
 				489A7AA621B2172600361159 /* WDNavigationBar.m in Sources */,
 				489A7A8E21B1648A00361159 /* HomeCareViewController.m in Sources */,
 				489A7A7621B15C0100361159 /* RootNavigationController.m in Sources */,
 				489A7A7321B15BB600361159 /* RootTabBarController.m in Sources */,
+				4800CCA621B2A69200D2EE9F /* FindPasswordAlterView.m in Sources */,
 				489A7AB921B26F3100361159 /* MineOrderOperationView.m in Sources */,
 				489A7A8421B15DD800361159 /* RootViewController.m in Sources */,
+				4800CCA321B29FBF00D2EE9F /* FindPasswordViewController.m in Sources */,
 				489A7A4B21B15A7600361159 /* main.m in Sources */,
 				489A7AA221B1672C00361159 /* UIImage+Addition.m in Sources */,
+				4800CCA021B28F1100D2EE9F /* RegisterViewController.m in Sources */,
 				489A7ABC21B26FD600361159 /* UIButton+Addition.m in Sources */,
 				489A7A9421B164AF00361159 /* MineViewController.m in Sources */,
 				489A7AB121B25EA100361159 /* MineHeaderView.m in Sources */,

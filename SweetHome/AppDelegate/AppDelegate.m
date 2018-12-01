@@ -21,6 +21,8 @@
     
     [self setupWindowAndRootViewController];
     
+    [[UITabBar appearance] setTranslucent:NO];
+    
     return YES;
 }
 

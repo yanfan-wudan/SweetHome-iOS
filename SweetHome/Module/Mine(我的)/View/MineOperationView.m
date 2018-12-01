@@ -19,7 +19,7 @@
 }
 
 - (void)setupView {
-    NSArray *titleArray = @[@"0\n关注", @"0\n关注", @"0\n关注", @"0\n关注"];
+    NSArray *titleArray = @[@"0\n关注", @"0\n收藏", @"0\n案例", @"0\n评价"];
     
     for (int i = 0; i< titleArray.count; ++i) {
         UIButton *button               = [UIButton buttonWithType:UIButtonTypeCustom];

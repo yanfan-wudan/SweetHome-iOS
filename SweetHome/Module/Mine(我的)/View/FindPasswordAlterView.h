@@ -1,18 +1,18 @@
 //
-//  LoginViewController.h
+//  FindPasswordAlterView.h
 //  SweetHome
 //
 //  Created by wudan on 2018/12/1.
 //  Copyright © 2018 wudan. All rights reserved.
 //
 
-#import "RootViewController.h"
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LoginViewController : RootViewController
+@interface FindPasswordAlterView : UIView
 
-@property (nonatomic, copy) NSString *fromController;
+- (void)showView;
 
 @end
 
