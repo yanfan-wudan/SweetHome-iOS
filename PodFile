@@ -1,0 +1,5 @@
+target 'SweetHome' do
+
+pod 'Masonry'
+
+end

@@ -1,0 +1,844 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4465F9E07AF79E381923E94C /* libPods-SweetHome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E2E995D18CE3A12FEE354E /* libPods-SweetHome.a */; };
+		489A7A3D21B15A7500361159 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A7A3C21B15A7500361159 /* AppDelegate.m */; };
+		489A7A4321B15A7500361159 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 489A7A4121B15A7500361159 /* Main.storyboard */; };
+		489A7A4521B15A7600361159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 489A7A4421B15A7600361159 /* Assets.xcassets */; };
+		489A7A4821B15A7600361159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 489A7A4621B15A7600361159 /* LaunchScreen.storyboard */; };
+		489A7A4B21B15A7600361159 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A7A4A21B15A7600361159 /* main.m */; };
+		489A7A5521B15A7600361159 /* SweetHomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A7A5421B15A7600361159 /* SweetHomeTests.m */; };
+		489A7A6021B15A7600361159 /* SweetHomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A7A5F21B15A7600361159 /* SweetHomeUITests.m */; };
+		489A7A7021B15AE100361159 /* AppDelegate+Initialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A7A6F21B15AE100361159 /* AppDelegate+Initialization.m */; };
+		489A7A7321B15BB600361159 /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A7A7221B15BB600361159 /* RootTabBarController.m */; };
+		489A7A7621B15C0100361159 /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A7A7521B15C0100361159 /* RootNavigationController.m */; };
+		489A7A8421B15DD800361159 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A7A8321B15DD800361159 /* RootViewController.m */; };
+		489A7A8821B1644300361159 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A7A8721B1644300361159 /* HomeViewController.m */; };
+		489A7A8B21B1646B00361159 /* DecorationServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A7A8A21B1646B00361159 /* DecorationServiceViewController.m */; };
+		489A7A8E21B1648A00361159 /* HomeCareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A7A8D21B1648A00361159 /* HomeCareViewController.m */; };
+		489A7A9121B164A400361159 /* ShoppingMallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A7A9021B164A400361159 /* ShoppingMallViewController.m */; };
+		489A7A9421B164AF00361159 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A7A9321B164AF00361159 /* MineViewController.m */; };
+		489A7AA221B1672C00361159 /* UIImage+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A7AA121B1672C00361159 /* UIImage+Addition.m */; };
+		489A7AA621B2172600361159 /* WDNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A7AA521B2172600361159 /* WDNavigationBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		489A7A5121B15A7600361159 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 489A7A3021B15A7500361159 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 489A7A3721B15A7500361159;
+			remoteInfo = SweetHome;
+		};
+		489A7A5C21B15A7600361159 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 489A7A3021B15A7500361159 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 489A7A3721B15A7500361159;
+			remoteInfo = SweetHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BFCA3068AB58C94017F98F1 /* Pods-SweetHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-SweetHome/Pods-SweetHome.release.xcconfig"; sourceTree = "<group>"; };
+		489A7A3821B15A7500361159 /* SweetHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweetHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		489A7A3B21B15A7500361159 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		489A7A3C21B15A7500361159 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		489A7A4221B15A7500361159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		489A7A4421B15A7600361159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		489A7A4721B15A7600361159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		489A7A4921B15A7600361159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		489A7A4A21B15A7600361159 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		489A7A5021B15A7600361159 /* SweetHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		489A7A5421B15A7600361159 /* SweetHomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SweetHomeTests.m; sourceTree = "<group>"; };
+		489A7A5621B15A7600361159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		489A7A5B21B15A7600361159 /* SweetHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		489A7A5F21B15A7600361159 /* SweetHomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SweetHomeUITests.m; sourceTree = "<group>"; };
+		489A7A6121B15A7600361159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		489A7A6E21B15AE100361159 /* AppDelegate+Initialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Initialization.h"; sourceTree = "<group>"; };
+		489A7A6F21B15AE100361159 /* AppDelegate+Initialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Initialization.m"; sourceTree = "<group>"; };
+		489A7A7121B15BB600361159 /* RootTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
+		489A7A7221B15BB600361159 /* RootTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
+		489A7A7421B15C0100361159 /* RootNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootNavigationController.h; sourceTree = "<group>"; };
+		489A7A7521B15C0100361159 /* RootNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootNavigationController.m; sourceTree = "<group>"; };
+		489A7A7A21B15CC900361159 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		489A7A7B21B15D0200361159 /* MacroDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDefinition.h; sourceTree = "<group>"; };
+		489A7A8221B15DD800361159 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		489A7A8321B15DD800361159 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		489A7A8621B1644300361159 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		489A7A8721B1644300361159 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		489A7A8921B1646B00361159 /* DecorationServiceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecorationServiceViewController.h; sourceTree = "<group>"; };
+		489A7A8A21B1646B00361159 /* DecorationServiceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecorationServiceViewController.m; sourceTree = "<group>"; };
+		489A7A8C21B1648A00361159 /* HomeCareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeCareViewController.h; sourceTree = "<group>"; };
+		489A7A8D21B1648A00361159 /* HomeCareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeCareViewController.m; sourceTree = "<group>"; };
+		489A7A8F21B164A400361159 /* ShoppingMallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingMallViewController.h; sourceTree = "<group>"; };
+		489A7A9021B164A400361159 /* ShoppingMallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingMallViewController.m; sourceTree = "<group>"; };
+		489A7A9221B164AF00361159 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		489A7A9321B164AF00361159 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		489A7AA021B1672C00361159 /* UIImage+Addition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Addition.h"; sourceTree = "<group>"; };
+		489A7AA121B1672C00361159 /* UIImage+Addition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Addition.m"; sourceTree = "<group>"; };
+		489A7AA421B2172600361159 /* WDNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDNavigationBar.h; sourceTree = "<group>"; };
+		489A7AA521B2172600361159 /* WDNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDNavigationBar.m; sourceTree = "<group>"; };
+		D5E2E995D18CE3A12FEE354E /* libPods-SweetHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SweetHome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3988129CD872449335AD8B8 /* Pods-SweetHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SweetHome/Pods-SweetHome.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		489A7A3521B15A7500361159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4465F9E07AF79E381923E94C /* libPods-SweetHome.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489A7A4D21B15A7600361159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489A7A5821B15A7600361159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		489A7A2F21B15A7500361159 = {
+			isa = PBXGroup;
+			children = (
+				489A7A3A21B15A7500361159 /* SweetHome */,
+				489A7A5321B15A7600361159 /* SweetHomeTests */,
+				489A7A5E21B15A7600361159 /* SweetHomeUITests */,
+				489A7A3921B15A7500361159 /* Products */,
+				52D1D3B5F34D46E9EF7D8B83 /* Pods */,
+				4B6F737CFE2A46E3ACD58EE8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		489A7A3921B15A7500361159 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				489A7A3821B15A7500361159 /* SweetHome.app */,
+				489A7A5021B15A7600361159 /* SweetHomeTests.xctest */,
+				489A7A5B21B15A7600361159 /* SweetHomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		489A7A3A21B15A7500361159 /* SweetHome */ = {
+			isa = PBXGroup;
+			children = (
+				489A7A8521B1601300361159 /* AppConfiguration */,
+				489A7A7E21B15D8100361159 /* Supporting Files */,
+				489A7A7C21B15D1300361159 /* AppDelegate */,
+				489A7A7D21B15D2D00361159 /* Main */,
+				489A7A9521B164B400361159 /* Module */,
+				489A7AA721B2542200361159 /* Tools */,
+			);
+			path = SweetHome;
+			sourceTree = "<group>";
+		};
+		489A7A5321B15A7600361159 /* SweetHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				489A7A5421B15A7600361159 /* SweetHomeTests.m */,
+				489A7A5621B15A7600361159 /* Info.plist */,
+			);
+			path = SweetHomeTests;
+			sourceTree = "<group>";
+		};
+		489A7A5E21B15A7600361159 /* SweetHomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				489A7A5F21B15A7600361159 /* SweetHomeUITests.m */,
+				489A7A6121B15A7600361159 /* Info.plist */,
+			);
+			path = SweetHomeUITests;
+			sourceTree = "<group>";
+		};
+		489A7A7C21B15D1300361159 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				489A7A3B21B15A7500361159 /* AppDelegate.h */,
+				489A7A3C21B15A7500361159 /* AppDelegate.m */,
+				489A7A6E21B15AE100361159 /* AppDelegate+Initialization.h */,
+				489A7A6F21B15AE100361159 /* AppDelegate+Initialization.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		489A7A7D21B15D2D00361159 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				489A7A7121B15BB600361159 /* RootTabBarController.h */,
+				489A7A7221B15BB600361159 /* RootTabBarController.m */,
+				489A7A7421B15C0100361159 /* RootNavigationController.h */,
+				489A7A7521B15C0100361159 /* RootNavigationController.m */,
+				489A7A8221B15DD800361159 /* RootViewController.h */,
+				489A7A8321B15DD800361159 /* RootViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		489A7A7E21B15D8100361159 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				489A7A4121B15A7500361159 /* Main.storyboard */,
+				489A7A4421B15A7600361159 /* Assets.xcassets */,
+				489A7A4621B15A7600361159 /* LaunchScreen.storyboard */,
+				489A7A4921B15A7600361159 /* Info.plist */,
+				489A7A4A21B15A7600361159 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		489A7A8521B1601300361159 /* AppConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				489A7A7A21B15CC900361159 /* PrefixHeader.pch */,
+				489A7A7B21B15D0200361159 /* MacroDefinition.h */,
+			);
+			path = AppConfiguration;
+			sourceTree = "<group>";
+		};
+		489A7A9521B164B400361159 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				489A7A9621B164D900361159 /* Home(首页) */,
+				489A7A9721B164E700361159 /* DecorationService(装修服务) */,
+				489A7A9821B1650800361159 /* HomeCare(居家服务) */,
+				489A7A9921B1651800361159 /* ShoppingMall(商城) */,
+				489A7A9A21B1652500361159 /* Mine(我的) */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		489A7A9621B164D900361159 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				489A7A9B21B1653800361159 /* Controller */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		489A7A9721B164E700361159 /* DecorationService(装修服务) */ = {
+			isa = PBXGroup;
+			children = (
+				489A7A9C21B1654300361159 /* Controller */,
+			);
+			path = "DecorationService(装修服务)";
+			sourceTree = "<group>";
+		};
+		489A7A9821B1650800361159 /* HomeCare(居家服务) */ = {
+			isa = PBXGroup;
+			children = (
+				489A7A9D21B1654F00361159 /* Controller */,
+			);
+			path = "HomeCare(居家服务)";
+			sourceTree = "<group>";
+		};
+		489A7A9921B1651800361159 /* ShoppingMall(商城) */ = {
+			isa = PBXGroup;
+			children = (
+				489A7A9E21B1655400361159 /* Controller */,
+			);
+			path = "ShoppingMall(商城)";
+			sourceTree = "<group>";
+		};
+		489A7A9A21B1652500361159 /* Mine(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				489A7A9F21B1655A00361159 /* Controller */,
+			);
+			path = "Mine(我的)";
+			sourceTree = "<group>";
+		};
+		489A7A9B21B1653800361159 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				489A7A8621B1644300361159 /* HomeViewController.h */,
+				489A7A8721B1644300361159 /* HomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		489A7A9C21B1654300361159 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				489A7A8921B1646B00361159 /* DecorationServiceViewController.h */,
+				489A7A8A21B1646B00361159 /* DecorationServiceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		489A7A9D21B1654F00361159 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				489A7A8C21B1648A00361159 /* HomeCareViewController.h */,
+				489A7A8D21B1648A00361159 /* HomeCareViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		489A7A9E21B1655400361159 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				489A7A8F21B164A400361159 /* ShoppingMallViewController.h */,
+				489A7A9021B164A400361159 /* ShoppingMallViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		489A7A9F21B1655A00361159 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				489A7A9221B164AF00361159 /* MineViewController.h */,
+				489A7A9321B164AF00361159 /* MineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		489A7AA321B16DA600361159 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				489A7AA021B1672C00361159 /* UIImage+Addition.h */,
+				489A7AA121B1672C00361159 /* UIImage+Addition.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		489A7AA721B2542200361159 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				489A7AA321B16DA600361159 /* Category */,
+				489A7AA821B2542A00361159 /* NavagtionBar */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		489A7AA821B2542A00361159 /* NavagtionBar */ = {
+			isa = PBXGroup;
+			children = (
+				489A7AA421B2172600361159 /* WDNavigationBar.h */,
+				489A7AA521B2172600361159 /* WDNavigationBar.m */,
+			);
+			path = NavagtionBar;
+			sourceTree = "<group>";
+		};
+		4B6F737CFE2A46E3ACD58EE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5E2E995D18CE3A12FEE354E /* libPods-SweetHome.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52D1D3B5F34D46E9EF7D8B83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3988129CD872449335AD8B8 /* Pods-SweetHome.debug.xcconfig */,
+				2BFCA3068AB58C94017F98F1 /* Pods-SweetHome.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		489A7A3721B15A7500361159 /* SweetHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 489A7A6421B15A7600361159 /* Build configuration list for PBXNativeTarget "SweetHome" */;
+			buildPhases = (
+				5F3512DCBD31E810E140D482 /* [CP] Check Pods Manifest.lock */,
+				489A7A3421B15A7500361159 /* Sources */,
+				489A7A3521B15A7500361159 /* Frameworks */,
+				489A7A3621B15A7500361159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SweetHome;
+			productName = SweetHome;
+			productReference = 489A7A3821B15A7500361159 /* SweetHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		489A7A4F21B15A7600361159 /* SweetHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 489A7A6721B15A7600361159 /* Build configuration list for PBXNativeTarget "SweetHomeTests" */;
+			buildPhases = (
+				489A7A4C21B15A7600361159 /* Sources */,
+				489A7A4D21B15A7600361159 /* Frameworks */,
+				489A7A4E21B15A7600361159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				489A7A5221B15A7600361159 /* PBXTargetDependency */,
+			);
+			name = SweetHomeTests;
+			productName = SweetHomeTests;
+			productReference = 489A7A5021B15A7600361159 /* SweetHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		489A7A5A21B15A7600361159 /* SweetHomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 489A7A6A21B15A7600361159 /* Build configuration list for PBXNativeTarget "SweetHomeUITests" */;
+			buildPhases = (
+				489A7A5721B15A7600361159 /* Sources */,
+				489A7A5821B15A7600361159 /* Frameworks */,
+				489A7A5921B15A7600361159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				489A7A5D21B15A7600361159 /* PBXTargetDependency */,
+			);
+			name = SweetHomeUITests;
+			productName = SweetHomeUITests;
+			productReference = 489A7A5B21B15A7600361159 /* SweetHomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		489A7A3021B15A7500361159 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = wudan;
+				TargetAttributes = {
+					489A7A3721B15A7500361159 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					489A7A4F21B15A7600361159 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 489A7A3721B15A7500361159;
+					};
+					489A7A5A21B15A7600361159 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 489A7A3721B15A7500361159;
+					};
+				};
+			};
+			buildConfigurationList = 489A7A3321B15A7500361159 /* Build configuration list for PBXProject "SweetHome" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 489A7A2F21B15A7500361159;
+			productRefGroup = 489A7A3921B15A7500361159 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				489A7A3721B15A7500361159 /* SweetHome */,
+				489A7A4F21B15A7600361159 /* SweetHomeTests */,
+				489A7A5A21B15A7600361159 /* SweetHomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		489A7A3621B15A7500361159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489A7A4821B15A7600361159 /* LaunchScreen.storyboard in Resources */,
+				489A7A4521B15A7600361159 /* Assets.xcassets in Resources */,
+				489A7A4321B15A7500361159 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489A7A4E21B15A7600361159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489A7A5921B15A7600361159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F3512DCBD31E810E140D482 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SweetHome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		489A7A3421B15A7500361159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489A7AA621B2172600361159 /* WDNavigationBar.m in Sources */,
+				489A7A8E21B1648A00361159 /* HomeCareViewController.m in Sources */,
+				489A7A7621B15C0100361159 /* RootNavigationController.m in Sources */,
+				489A7A7321B15BB600361159 /* RootTabBarController.m in Sources */,
+				489A7A8421B15DD800361159 /* RootViewController.m in Sources */,
+				489A7A4B21B15A7600361159 /* main.m in Sources */,
+				489A7AA221B1672C00361159 /* UIImage+Addition.m in Sources */,
+				489A7A9421B164AF00361159 /* MineViewController.m in Sources */,
+				489A7A8B21B1646B00361159 /* DecorationServiceViewController.m in Sources */,
+				489A7A7021B15AE100361159 /* AppDelegate+Initialization.m in Sources */,
+				489A7A8821B1644300361159 /* HomeViewController.m in Sources */,
+				489A7A9121B164A400361159 /* ShoppingMallViewController.m in Sources */,
+				489A7A3D21B15A7500361159 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489A7A4C21B15A7600361159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489A7A5521B15A7600361159 /* SweetHomeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489A7A5721B15A7600361159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489A7A6021B15A7600361159 /* SweetHomeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		489A7A5221B15A7600361159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 489A7A3721B15A7500361159 /* SweetHome */;
+			targetProxy = 489A7A5121B15A7600361159 /* PBXContainerItemProxy */;
+		};
+		489A7A5D21B15A7600361159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 489A7A3721B15A7500361159 /* SweetHome */;
+			targetProxy = 489A7A5C21B15A7600361159 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		489A7A4121B15A7500361159 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				489A7A4221B15A7500361159 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		489A7A4621B15A7600361159 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				489A7A4721B15A7600361159 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		489A7A6221B15A7600361159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		489A7A6321B15A7600361159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		489A7A6521B15A7600361159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3988129CD872449335AD8B8 /* Pods-SweetHome.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Z2V56RPD8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/AppConfiguration/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/SweetHome/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wudan.SweetHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		489A7A6621B15A7600361159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BFCA3068AB58C94017F98F1 /* Pods-SweetHome.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Z2V56RPD8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/AppConfiguration/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/SweetHome/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wudan.SweetHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		489A7A6821B15A7600361159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SweetHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wudan.SweetHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SweetHome.app/SweetHome";
+			};
+			name = Debug;
+		};
+		489A7A6921B15A7600361159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SweetHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wudan.SweetHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SweetHome.app/SweetHome";
+			};
+			name = Release;
+		};
+		489A7A6B21B15A7600361159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SweetHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wudan.SweetHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SweetHome;
+			};
+			name = Debug;
+		};
+		489A7A6C21B15A7600361159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SweetHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wudan.SweetHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SweetHome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		489A7A3321B15A7500361159 /* Build configuration list for PBXProject "SweetHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				489A7A6221B15A7600361159 /* Debug */,
+				489A7A6321B15A7600361159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		489A7A6421B15A7600361159 /* Build configuration list for PBXNativeTarget "SweetHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				489A7A6521B15A7600361159 /* Debug */,
+				489A7A6621B15A7600361159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		489A7A6721B15A7600361159 /* Build configuration list for PBXNativeTarget "SweetHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				489A7A6821B15A7600361159 /* Debug */,
+				489A7A6921B15A7600361159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		489A7A6A21B15A7600361159 /* Build configuration list for PBXNativeTarget "SweetHomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				489A7A6B21B15A7600361159 /* Debug */,
+				489A7A6C21B15A7600361159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 489A7A3021B15A7500361159 /* Project object */;
+}
