@@ -22,7 +22,7 @@
 
 // Data
 @property (nonatomic, copy) NSArray<NSArray *> *titleArray;
-
+@property (nonatomic, copy) NSArray<NSArray *> *vcArray;
 
 @end
 
@@ -35,6 +35,15 @@
 - (void)initializationDefaultData {
     NSArray *lastArray = @[@"工匠认证", @"我的积分", @"我的小窝", @"二手商品", @"用户反馈", @"系统设置"];
     self.titleArray = @[@[@"我的动态"], @[@"我的订单"], lastArray];
+    
+    self.vcArray = @[@[@"CraftsmanCertificationViewController"],
+                     @[@"CraftsmanCertificationViewController"],
+                     @[@"CraftsmanCertificationViewController",
+                       @"CraftsmanCertificationViewController",
+                       @"CraftsmanCertificationViewController",
+                       @"CraftsmanCertificationViewController",
+                       @"CraftsmanCertificationViewController",
+                       @"CraftsmanCertificationViewController"]];
 }
 
 - (void)setupNavigationBar {
@@ -104,6 +113,13 @@
     return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:true];
+    
+    Class class = NSClassFromString(self.vcArray[indexPath.section][indexPath.row]);
+    UIViewController *vc = [[class alloc] init];
+    [self.navigationController pushViewController:vc animated:true];
+}
 
 #pragma mark - MineHeaderViewDelegate
 

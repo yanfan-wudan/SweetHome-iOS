@@ -12,6 +12,16 @@
 		4800CCA321B29FBF00D2EE9F /* FindPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4800CCA221B29FBF00D2EE9F /* FindPasswordViewController.m */; };
 		4800CCA621B2A69200D2EE9F /* FindPasswordAlterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4800CCA521B2A69200D2EE9F /* FindPasswordAlterView.m */; };
 		4800CCA921B2B7AD00D2EE9F /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4800CCA821B2B7AD00D2EE9F /* UIView+Addition.m */; };
+		484261A421B4B3F8009021CE /* CraftsmanCertificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484261A321B4B3F8009021CE /* CraftsmanCertificationViewController.m */; };
+		484261A821B4B53B009021CE /* CraftsmanCertificationAddView.m in Sources */ = {isa = PBXBuildFile; fileRef = 484261A721B4B53B009021CE /* CraftsmanCertificationAddView.m */; };
+		484261AB21B4B93F009021CE /* CraftsmanCertificationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 484261AA21B4B93F009021CE /* CraftsmanCertificationTableViewCell.m */; };
+		484261AE21B4BD43009021CE /* CraftsmanCertificationAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484261AD21B4BD43009021CE /* CraftsmanCertificationAddViewController.m */; };
+		484261B121B4BF9B009021CE /* CraftsmanCertificationTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 484261B021B4BF9B009021CE /* CraftsmanCertificationTypeView.m */; };
+		484261B421B4CCF7009021CE /* WDComboBoxControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 484261B321B4CCF7009021CE /* WDComboBoxControl.m */; };
+		484261B721B4D293009021CE /* CraftsmanCertificationTypeOfWorkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 484261B621B4D293009021CE /* CraftsmanCertificationTypeOfWorkView.m */; };
+		484261BA21B4D6F8009021CE /* WDTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 484261B921B4D6F8009021CE /* WDTagView.m */; };
+		484261BD21B4DBDD009021CE /* CraftsmanCertificationUserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 484261BC21B4DBDD009021CE /* CraftsmanCertificationUserInfoView.m */; };
+		484261C021B4EAB5009021CE /* CraftsmanCertificationIDCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 484261BF21B4EAB5009021CE /* CraftsmanCertificationIDCardView.m */; };
 		489A7A3D21B15A7500361159 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A7A3C21B15A7500361159 /* AppDelegate.m */; };
 		489A7A4321B15A7500361159 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 489A7A4121B15A7500361159 /* Main.storyboard */; };
 		489A7A4521B15A7600361159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 489A7A4421B15A7600361159 /* Assets.xcassets */; };
@@ -64,6 +74,26 @@
 		4800CCA521B2A69200D2EE9F /* FindPasswordAlterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindPasswordAlterView.m; sourceTree = "<group>"; };
 		4800CCA721B2B7AD00D2EE9F /* UIView+Addition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
 		4800CCA821B2B7AD00D2EE9F /* UIView+Addition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
+		484261A221B4B3F8009021CE /* CraftsmanCertificationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CraftsmanCertificationViewController.h; sourceTree = "<group>"; };
+		484261A321B4B3F8009021CE /* CraftsmanCertificationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CraftsmanCertificationViewController.m; sourceTree = "<group>"; };
+		484261A621B4B53B009021CE /* CraftsmanCertificationAddView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CraftsmanCertificationAddView.h; sourceTree = "<group>"; };
+		484261A721B4B53B009021CE /* CraftsmanCertificationAddView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CraftsmanCertificationAddView.m; sourceTree = "<group>"; };
+		484261A921B4B93F009021CE /* CraftsmanCertificationTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CraftsmanCertificationTableViewCell.h; sourceTree = "<group>"; };
+		484261AA21B4B93F009021CE /* CraftsmanCertificationTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CraftsmanCertificationTableViewCell.m; sourceTree = "<group>"; };
+		484261AC21B4BD43009021CE /* CraftsmanCertificationAddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CraftsmanCertificationAddViewController.h; sourceTree = "<group>"; };
+		484261AD21B4BD43009021CE /* CraftsmanCertificationAddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CraftsmanCertificationAddViewController.m; sourceTree = "<group>"; };
+		484261AF21B4BF9B009021CE /* CraftsmanCertificationTypeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CraftsmanCertificationTypeView.h; sourceTree = "<group>"; };
+		484261B021B4BF9B009021CE /* CraftsmanCertificationTypeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CraftsmanCertificationTypeView.m; sourceTree = "<group>"; };
+		484261B221B4CCF7009021CE /* WDComboBoxControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDComboBoxControl.h; sourceTree = "<group>"; };
+		484261B321B4CCF7009021CE /* WDComboBoxControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDComboBoxControl.m; sourceTree = "<group>"; };
+		484261B521B4D293009021CE /* CraftsmanCertificationTypeOfWorkView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CraftsmanCertificationTypeOfWorkView.h; sourceTree = "<group>"; };
+		484261B621B4D293009021CE /* CraftsmanCertificationTypeOfWorkView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CraftsmanCertificationTypeOfWorkView.m; sourceTree = "<group>"; };
+		484261B821B4D6F8009021CE /* WDTagView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDTagView.h; sourceTree = "<group>"; };
+		484261B921B4D6F8009021CE /* WDTagView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDTagView.m; sourceTree = "<group>"; };
+		484261BB21B4DBDD009021CE /* CraftsmanCertificationUserInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CraftsmanCertificationUserInfoView.h; sourceTree = "<group>"; };
+		484261BC21B4DBDD009021CE /* CraftsmanCertificationUserInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CraftsmanCertificationUserInfoView.m; sourceTree = "<group>"; };
+		484261BE21B4EAB5009021CE /* CraftsmanCertificationIDCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CraftsmanCertificationIDCardView.h; sourceTree = "<group>"; };
+		484261BF21B4EAB5009021CE /* CraftsmanCertificationIDCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CraftsmanCertificationIDCardView.m; sourceTree = "<group>"; };
 		489A7A3821B15A7500361159 /* SweetHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweetHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		489A7A3B21B15A7500361159 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		489A7A3C21B15A7500361159 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -143,6 +173,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4842619F21B4B339009021CE /* Login(登陆) */ = {
+			isa = PBXGroup;
+			children = (
+				489A7ABD21B271B900361159 /* LoginViewController.h */,
+				489A7ABE21B271B900361159 /* LoginViewController.m */,
+			);
+			path = "Login(登陆)";
+			sourceTree = "<group>";
+		};
+		484261A021B4B345009021CE /* Register(注册) */ = {
+			isa = PBXGroup;
+			children = (
+				4800CC9E21B28F1100D2EE9F /* RegisterViewController.h */,
+				4800CC9F21B28F1100D2EE9F /* RegisterViewController.m */,
+			);
+			path = "Register(注册)";
+			sourceTree = "<group>";
+		};
+		484261A121B4B355009021CE /* FindPassword(找回密码) */ = {
+			isa = PBXGroup;
+			children = (
+				4800CCA121B29FBF00D2EE9F /* FindPasswordViewController.h */,
+				4800CCA221B29FBF00D2EE9F /* FindPasswordViewController.m */,
+			);
+			path = "FindPassword(找回密码)";
+			sourceTree = "<group>";
+		};
+		484261A521B4B413009021CE /* CraftsmanCertification(工匠认证) */ = {
+			isa = PBXGroup;
+			children = (
+				484261AC21B4BD43009021CE /* CraftsmanCertificationAddViewController.h */,
+				484261AD21B4BD43009021CE /* CraftsmanCertificationAddViewController.m */,
+				484261A221B4B3F8009021CE /* CraftsmanCertificationViewController.h */,
+				484261A321B4B3F8009021CE /* CraftsmanCertificationViewController.m */,
+			);
+			path = "CraftsmanCertification(工匠认证)";
+			sourceTree = "<group>";
+		};
 		489A7A2F21B15A7500361159 = {
 			isa = PBXGroup;
 			children = (
@@ -336,12 +404,10 @@
 			children = (
 				489A7A9221B164AF00361159 /* MineViewController.h */,
 				489A7A9321B164AF00361159 /* MineViewController.m */,
-				489A7ABD21B271B900361159 /* LoginViewController.h */,
-				489A7ABE21B271B900361159 /* LoginViewController.m */,
-				4800CC9E21B28F1100D2EE9F /* RegisterViewController.h */,
-				4800CC9F21B28F1100D2EE9F /* RegisterViewController.m */,
-				4800CCA121B29FBF00D2EE9F /* FindPasswordViewController.h */,
-				4800CCA221B29FBF00D2EE9F /* FindPasswordViewController.m */,
+				4842619F21B4B339009021CE /* Login(登陆) */,
+				484261A021B4B345009021CE /* Register(注册) */,
+				484261A121B4B355009021CE /* FindPassword(找回密码) */,
+				484261A521B4B413009021CE /* CraftsmanCertification(工匠认证) */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -364,6 +430,10 @@
 			children = (
 				489A7AA321B16DA600361159 /* Category */,
 				489A7AA821B2542A00361159 /* NavagtionBar */,
+				484261B221B4CCF7009021CE /* WDComboBoxControl.h */,
+				484261B321B4CCF7009021CE /* WDComboBoxControl.m */,
+				484261B821B4D6F8009021CE /* WDTagView.h */,
+				484261B921B4D6F8009021CE /* WDTagView.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -388,6 +458,18 @@
 				489A7AB821B26F3100361159 /* MineOrderOperationView.m */,
 				4800CCA421B2A69200D2EE9F /* FindPasswordAlterView.h */,
 				4800CCA521B2A69200D2EE9F /* FindPasswordAlterView.m */,
+				484261A621B4B53B009021CE /* CraftsmanCertificationAddView.h */,
+				484261A721B4B53B009021CE /* CraftsmanCertificationAddView.m */,
+				484261A921B4B93F009021CE /* CraftsmanCertificationTableViewCell.h */,
+				484261AA21B4B93F009021CE /* CraftsmanCertificationTableViewCell.m */,
+				484261AF21B4BF9B009021CE /* CraftsmanCertificationTypeView.h */,
+				484261B021B4BF9B009021CE /* CraftsmanCertificationTypeView.m */,
+				484261B521B4D293009021CE /* CraftsmanCertificationTypeOfWorkView.h */,
+				484261B621B4D293009021CE /* CraftsmanCertificationTypeOfWorkView.m */,
+				484261BB21B4DBDD009021CE /* CraftsmanCertificationUserInfoView.h */,
+				484261BC21B4DBDD009021CE /* CraftsmanCertificationUserInfoView.m */,
+				484261BE21B4EAB5009021CE /* CraftsmanCertificationIDCardView.h */,
+				484261BF21B4EAB5009021CE /* CraftsmanCertificationIDCardView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -566,12 +648,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4800CCA921B2B7AD00D2EE9F /* UIView+Addition.m in Sources */,
+				484261A421B4B3F8009021CE /* CraftsmanCertificationViewController.m in Sources */,
 				489A7AA621B2172600361159 /* WDNavigationBar.m in Sources */,
 				489A7A8E21B1648A00361159 /* HomeCareViewController.m in Sources */,
 				489A7A7621B15C0100361159 /* RootNavigationController.m in Sources */,
 				489A7A7321B15BB600361159 /* RootTabBarController.m in Sources */,
 				4800CCA621B2A69200D2EE9F /* FindPasswordAlterView.m in Sources */,
+				484261B421B4CCF7009021CE /* WDComboBoxControl.m in Sources */,
+				484261BA21B4D6F8009021CE /* WDTagView.m in Sources */,
 				489A7AB921B26F3100361159 /* MineOrderOperationView.m in Sources */,
+				484261C021B4EAB5009021CE /* CraftsmanCertificationIDCardView.m in Sources */,
 				489A7A8421B15DD800361159 /* RootViewController.m in Sources */,
 				4800CCA321B29FBF00D2EE9F /* FindPasswordViewController.m in Sources */,
 				489A7A4B21B15A7600361159 /* main.m in Sources */,
@@ -581,11 +667,17 @@
 				489A7A9421B164AF00361159 /* MineViewController.m in Sources */,
 				489A7AB121B25EA100361159 /* MineHeaderView.m in Sources */,
 				489A7A8B21B1646B00361159 /* DecorationServiceViewController.m in Sources */,
+				484261B721B4D293009021CE /* CraftsmanCertificationTypeOfWorkView.m in Sources */,
+				484261B121B4BF9B009021CE /* CraftsmanCertificationTypeView.m in Sources */,
+				484261A821B4B53B009021CE /* CraftsmanCertificationAddView.m in Sources */,
 				489A7A7021B15AE100361159 /* AppDelegate+Initialization.m in Sources */,
 				489A7AB621B268ED00361159 /* MineOperationView.m in Sources */,
 				489A7ABF21B271B900361159 /* LoginViewController.m in Sources */,
 				489A7A8821B1644300361159 /* HomeViewController.m in Sources */,
 				489A7A9121B164A400361159 /* ShoppingMallViewController.m in Sources */,
+				484261AE21B4BD43009021CE /* CraftsmanCertificationAddViewController.m in Sources */,
+				484261AB21B4B93F009021CE /* CraftsmanCertificationTableViewCell.m in Sources */,
+				484261BD21B4DBDD009021CE /* CraftsmanCertificationUserInfoView.m in Sources */,
 				489A7A3D21B15A7500361159 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
