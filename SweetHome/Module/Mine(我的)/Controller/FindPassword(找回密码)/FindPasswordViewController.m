@@ -210,13 +210,13 @@
                 [self.navigationController pushViewController:controller animated:true];
             }
         }
-            
+             break;
         case 100:
         {
             FindPasswordAlterView *view = [[FindPasswordAlterView alloc] init];
             [view showView];
         }
-            
+             break;
         default:
             break;
     }

@@ -22,6 +22,17 @@
 		484261BA21B4D6F8009021CE /* WDTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 484261B921B4D6F8009021CE /* WDTagView.m */; };
 		484261BD21B4DBDD009021CE /* CraftsmanCertificationUserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 484261BC21B4DBDD009021CE /* CraftsmanCertificationUserInfoView.m */; };
 		484261C021B4EAB5009021CE /* CraftsmanCertificationIDCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 484261BF21B4EAB5009021CE /* CraftsmanCertificationIDCardView.m */; };
+		484261C321B4F9B6009021CE /* MyWorkOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484261C221B4F9B6009021CE /* MyWorkOrderViewController.m */; };
+		484261C721B4FA30009021CE /* MyDynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484261C621B4FA30009021CE /* MyDynamicViewController.m */; };
+		484261CB21B4FA76009021CE /* MyPointsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484261CA21B4FA76009021CE /* MyPointsViewController.m */; };
+		484261CF21B4FAB8009021CE /* MyHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484261CE21B4FAB8009021CE /* MyHomeViewController.m */; };
+		484261D321B4FB31009021CE /* SecondHandGoodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484261D221B4FB31009021CE /* SecondHandGoodsViewController.m */; };
+		484261D721B4FB6C009021CE /* UserFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484261D621B4FB6C009021CE /* UserFeedbackViewController.m */; };
+		484261DB21B4FBF0009021CE /* SystemSettingViewControler.m in Sources */ = {isa = PBXBuildFile; fileRef = 484261DA21B4FBF0009021CE /* SystemSettingViewControler.m */; };
+		484261E121B509E4009021CE /* WDTabLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 484261E021B509E4009021CE /* WDTabLayout.m */; };
+		484261E421B50B1A009021CE /* MyOrderAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484261E321B50B1A009021CE /* MyOrderAllViewController.m */; };
+		484261ED21B512E8009021CE /* DecorationServiceLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 484261EC21B512E8009021CE /* DecorationServiceLeftView.m */; };
+		484261F121B5208B009021CE /* DecorationServiceCatrgoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 484261F021B5208B009021CE /* DecorationServiceCatrgoryView.m */; };
 		489A7A3D21B15A7500361159 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A7A3C21B15A7500361159 /* AppDelegate.m */; };
 		489A7A4321B15A7500361159 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 489A7A4121B15A7500361159 /* Main.storyboard */; };
 		489A7A4521B15A7600361159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 489A7A4421B15A7600361159 /* Assets.xcassets */; };
@@ -94,6 +105,28 @@
 		484261BC21B4DBDD009021CE /* CraftsmanCertificationUserInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CraftsmanCertificationUserInfoView.m; sourceTree = "<group>"; };
 		484261BE21B4EAB5009021CE /* CraftsmanCertificationIDCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CraftsmanCertificationIDCardView.h; sourceTree = "<group>"; };
 		484261BF21B4EAB5009021CE /* CraftsmanCertificationIDCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CraftsmanCertificationIDCardView.m; sourceTree = "<group>"; };
+		484261C121B4F9B6009021CE /* MyWorkOrderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyWorkOrderViewController.h; sourceTree = "<group>"; };
+		484261C221B4F9B6009021CE /* MyWorkOrderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWorkOrderViewController.m; sourceTree = "<group>"; };
+		484261C521B4FA30009021CE /* MyDynamicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDynamicViewController.h; sourceTree = "<group>"; };
+		484261C621B4FA30009021CE /* MyDynamicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDynamicViewController.m; sourceTree = "<group>"; };
+		484261C921B4FA76009021CE /* MyPointsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPointsViewController.h; sourceTree = "<group>"; };
+		484261CA21B4FA76009021CE /* MyPointsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPointsViewController.m; sourceTree = "<group>"; };
+		484261CD21B4FAB8009021CE /* MyHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyHomeViewController.h; sourceTree = "<group>"; };
+		484261CE21B4FAB8009021CE /* MyHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyHomeViewController.m; sourceTree = "<group>"; };
+		484261D121B4FB31009021CE /* SecondHandGoodsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondHandGoodsViewController.h; sourceTree = "<group>"; };
+		484261D221B4FB31009021CE /* SecondHandGoodsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondHandGoodsViewController.m; sourceTree = "<group>"; };
+		484261D521B4FB6C009021CE /* UserFeedbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserFeedbackViewController.h; sourceTree = "<group>"; };
+		484261D621B4FB6C009021CE /* UserFeedbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserFeedbackViewController.m; sourceTree = "<group>"; };
+		484261D921B4FBF0009021CE /* SystemSettingViewControler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemSettingViewControler.h; sourceTree = "<group>"; };
+		484261DA21B4FBF0009021CE /* SystemSettingViewControler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemSettingViewControler.m; sourceTree = "<group>"; };
+		484261DF21B509E4009021CE /* WDTabLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDTabLayout.h; sourceTree = "<group>"; };
+		484261E021B509E4009021CE /* WDTabLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDTabLayout.m; sourceTree = "<group>"; };
+		484261E221B50B1A009021CE /* MyOrderAllViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyOrderAllViewController.h; sourceTree = "<group>"; };
+		484261E321B50B1A009021CE /* MyOrderAllViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyOrderAllViewController.m; sourceTree = "<group>"; };
+		484261EB21B512E8009021CE /* DecorationServiceLeftView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecorationServiceLeftView.h; sourceTree = "<group>"; };
+		484261EC21B512E8009021CE /* DecorationServiceLeftView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecorationServiceLeftView.m; sourceTree = "<group>"; };
+		484261EF21B5208B009021CE /* DecorationServiceCatrgoryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecorationServiceCatrgoryView.h; sourceTree = "<group>"; };
+		484261F021B5208B009021CE /* DecorationServiceCatrgoryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecorationServiceCatrgoryView.m; sourceTree = "<group>"; };
 		489A7A3821B15A7500361159 /* SweetHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweetHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		489A7A3B21B15A7500361159 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		489A7A3C21B15A7500361159 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -209,6 +242,138 @@
 				484261A321B4B3F8009021CE /* CraftsmanCertificationViewController.m */,
 			);
 			path = "CraftsmanCertification(工匠认证)";
+			sourceTree = "<group>";
+		};
+		484261C421B4F9CB009021CE /* MyWorkOrder(我的订单) */ = {
+			isa = PBXGroup;
+			children = (
+				484261C121B4F9B6009021CE /* MyWorkOrderViewController.h */,
+				484261C221B4F9B6009021CE /* MyWorkOrderViewController.m */,
+				484261E521B50B25009021CE /* Controllers */,
+			);
+			path = "MyWorkOrder(我的订单)";
+			sourceTree = "<group>";
+		};
+		484261C821B4FA36009021CE /* MyDynamic(我的动态) */ = {
+			isa = PBXGroup;
+			children = (
+				484261C521B4FA30009021CE /* MyDynamicViewController.h */,
+				484261C621B4FA30009021CE /* MyDynamicViewController.m */,
+			);
+			path = "MyDynamic(我的动态)";
+			sourceTree = "<group>";
+		};
+		484261CC21B4FA8B009021CE /* MyPoints(我的积分) */ = {
+			isa = PBXGroup;
+			children = (
+				484261C921B4FA76009021CE /* MyPointsViewController.h */,
+				484261CA21B4FA76009021CE /* MyPointsViewController.m */,
+			);
+			path = "MyPoints(我的积分)";
+			sourceTree = "<group>";
+		};
+		484261D021B4FABE009021CE /* MyHome(我的小窝) */ = {
+			isa = PBXGroup;
+			children = (
+				484261CD21B4FAB8009021CE /* MyHomeViewController.h */,
+				484261CE21B4FAB8009021CE /* MyHomeViewController.m */,
+			);
+			path = "MyHome(我的小窝)";
+			sourceTree = "<group>";
+		};
+		484261D421B4FB34009021CE /* SecondHandGoods(二手商品) */ = {
+			isa = PBXGroup;
+			children = (
+				484261D121B4FB31009021CE /* SecondHandGoodsViewController.h */,
+				484261D221B4FB31009021CE /* SecondHandGoodsViewController.m */,
+			);
+			path = "SecondHandGoods(二手商品)";
+			sourceTree = "<group>";
+		};
+		484261D821B4FB6F009021CE /* UserFeedback(用户反馈) */ = {
+			isa = PBXGroup;
+			children = (
+				484261D521B4FB6C009021CE /* UserFeedbackViewController.h */,
+				484261D621B4FB6C009021CE /* UserFeedbackViewController.m */,
+			);
+			path = "UserFeedback(用户反馈)";
+			sourceTree = "<group>";
+		};
+		484261DC21B4FC13009021CE /* SystemSetting(系统设置) */ = {
+			isa = PBXGroup;
+			children = (
+				484261D921B4FBF0009021CE /* SystemSettingViewControler.h */,
+				484261DA21B4FBF0009021CE /* SystemSettingViewControler.m */,
+			);
+			path = "SystemSetting(系统设置)";
+			sourceTree = "<group>";
+		};
+		484261DD21B500EF009021CE /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				484261B221B4CCF7009021CE /* WDComboBoxControl.h */,
+				484261B321B4CCF7009021CE /* WDComboBoxControl.m */,
+				484261B821B4D6F8009021CE /* WDTagView.h */,
+				484261B921B4D6F8009021CE /* WDTagView.m */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		484261DE21B509E4009021CE /* WDTabLayout */ = {
+			isa = PBXGroup;
+			children = (
+				484261DF21B509E4009021CE /* WDTabLayout.h */,
+				484261E021B509E4009021CE /* WDTabLayout.m */,
+			);
+			path = WDTabLayout;
+			sourceTree = "<group>";
+		};
+		484261E521B50B25009021CE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				484261E221B50B1A009021CE /* MyOrderAllViewController.h */,
+				484261E321B50B1A009021CE /* MyOrderAllViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		484261E621B50CAE009021CE /* CraftsmanCertification(工匠认证) */ = {
+			isa = PBXGroup;
+			children = (
+				484261A621B4B53B009021CE /* CraftsmanCertificationAddView.h */,
+				484261A721B4B53B009021CE /* CraftsmanCertificationAddView.m */,
+				484261A921B4B93F009021CE /* CraftsmanCertificationTableViewCell.h */,
+				484261AA21B4B93F009021CE /* CraftsmanCertificationTableViewCell.m */,
+				484261AF21B4BF9B009021CE /* CraftsmanCertificationTypeView.h */,
+				484261B021B4BF9B009021CE /* CraftsmanCertificationTypeView.m */,
+				484261B521B4D293009021CE /* CraftsmanCertificationTypeOfWorkView.h */,
+				484261B621B4D293009021CE /* CraftsmanCertificationTypeOfWorkView.m */,
+				484261BB21B4DBDD009021CE /* CraftsmanCertificationUserInfoView.h */,
+				484261BC21B4DBDD009021CE /* CraftsmanCertificationUserInfoView.m */,
+				484261BE21B4EAB5009021CE /* CraftsmanCertificationIDCardView.h */,
+				484261BF21B4EAB5009021CE /* CraftsmanCertificationIDCardView.m */,
+			);
+			path = "CraftsmanCertification(工匠认证)";
+			sourceTree = "<group>";
+		};
+		484261E721B50CBA009021CE /* FindPassword(找回密码) */ = {
+			isa = PBXGroup;
+			children = (
+				4800CCA421B2A69200D2EE9F /* FindPasswordAlterView.h */,
+				4800CCA521B2A69200D2EE9F /* FindPasswordAlterView.m */,
+			);
+			path = "FindPassword(找回密码)";
+			sourceTree = "<group>";
+		};
+		484261EE21B52039009021CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				484261EB21B512E8009021CE /* DecorationServiceLeftView.h */,
+				484261EC21B512E8009021CE /* DecorationServiceLeftView.m */,
+				484261EF21B5208B009021CE /* DecorationServiceCatrgoryView.h */,
+				484261F021B5208B009021CE /* DecorationServiceCatrgoryView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		489A7A2F21B15A7500361159 = {
@@ -333,6 +498,7 @@
 		489A7A9721B164E700361159 /* DecorationService(装修服务) */ = {
 			isa = PBXGroup;
 			children = (
+				484261EE21B52039009021CE /* View */,
 				489A7A9C21B1654300361159 /* Controller */,
 			);
 			path = "DecorationService(装修服务)";
@@ -404,6 +570,13 @@
 			children = (
 				489A7A9221B164AF00361159 /* MineViewController.h */,
 				489A7A9321B164AF00361159 /* MineViewController.m */,
+				484261DC21B4FC13009021CE /* SystemSetting(系统设置) */,
+				484261D821B4FB6F009021CE /* UserFeedback(用户反馈) */,
+				484261D421B4FB34009021CE /* SecondHandGoods(二手商品) */,
+				484261D021B4FABE009021CE /* MyHome(我的小窝) */,
+				484261CC21B4FA8B009021CE /* MyPoints(我的积分) */,
+				484261C821B4FA36009021CE /* MyDynamic(我的动态) */,
+				484261C421B4F9CB009021CE /* MyWorkOrder(我的订单) */,
 				4842619F21B4B339009021CE /* Login(登陆) */,
 				484261A021B4B345009021CE /* Register(注册) */,
 				484261A121B4B355009021CE /* FindPassword(找回密码) */,
@@ -428,12 +601,10 @@
 		489A7AA721B2542200361159 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				484261DE21B509E4009021CE /* WDTabLayout */,
 				489A7AA321B16DA600361159 /* Category */,
 				489A7AA821B2542A00361159 /* NavagtionBar */,
-				484261B221B4CCF7009021CE /* WDComboBoxControl.h */,
-				484261B321B4CCF7009021CE /* WDComboBoxControl.m */,
-				484261B821B4D6F8009021CE /* WDTagView.h */,
-				484261B921B4D6F8009021CE /* WDTagView.m */,
+				484261DD21B500EF009021CE /* CustomView */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -456,20 +627,8 @@
 				489A7AB521B268ED00361159 /* MineOperationView.m */,
 				489A7AB721B26F3100361159 /* MineOrderOperationView.h */,
 				489A7AB821B26F3100361159 /* MineOrderOperationView.m */,
-				4800CCA421B2A69200D2EE9F /* FindPasswordAlterView.h */,
-				4800CCA521B2A69200D2EE9F /* FindPasswordAlterView.m */,
-				484261A621B4B53B009021CE /* CraftsmanCertificationAddView.h */,
-				484261A721B4B53B009021CE /* CraftsmanCertificationAddView.m */,
-				484261A921B4B93F009021CE /* CraftsmanCertificationTableViewCell.h */,
-				484261AA21B4B93F009021CE /* CraftsmanCertificationTableViewCell.m */,
-				484261AF21B4BF9B009021CE /* CraftsmanCertificationTypeView.h */,
-				484261B021B4BF9B009021CE /* CraftsmanCertificationTypeView.m */,
-				484261B521B4D293009021CE /* CraftsmanCertificationTypeOfWorkView.h */,
-				484261B621B4D293009021CE /* CraftsmanCertificationTypeOfWorkView.m */,
-				484261BB21B4DBDD009021CE /* CraftsmanCertificationUserInfoView.h */,
-				484261BC21B4DBDD009021CE /* CraftsmanCertificationUserInfoView.m */,
-				484261BE21B4EAB5009021CE /* CraftsmanCertificationIDCardView.h */,
-				484261BF21B4EAB5009021CE /* CraftsmanCertificationIDCardView.m */,
+				484261E721B50CBA009021CE /* FindPassword(找回密码) */,
+				484261E621B50CAE009021CE /* CraftsmanCertification(工匠认证) */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -648,14 +807,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				4800CCA921B2B7AD00D2EE9F /* UIView+Addition.m in Sources */,
+				484261ED21B512E8009021CE /* DecorationServiceLeftView.m in Sources */,
 				484261A421B4B3F8009021CE /* CraftsmanCertificationViewController.m in Sources */,
 				489A7AA621B2172600361159 /* WDNavigationBar.m in Sources */,
 				489A7A8E21B1648A00361159 /* HomeCareViewController.m in Sources */,
+				484261CF21B4FAB8009021CE /* MyHomeViewController.m in Sources */,
 				489A7A7621B15C0100361159 /* RootNavigationController.m in Sources */,
 				489A7A7321B15BB600361159 /* RootTabBarController.m in Sources */,
 				4800CCA621B2A69200D2EE9F /* FindPasswordAlterView.m in Sources */,
+				484261C321B4F9B6009021CE /* MyWorkOrderViewController.m in Sources */,
 				484261B421B4CCF7009021CE /* WDComboBoxControl.m in Sources */,
 				484261BA21B4D6F8009021CE /* WDTagView.m in Sources */,
+				484261F121B5208B009021CE /* DecorationServiceCatrgoryView.m in Sources */,
 				489A7AB921B26F3100361159 /* MineOrderOperationView.m in Sources */,
 				484261C021B4EAB5009021CE /* CraftsmanCertificationIDCardView.m in Sources */,
 				489A7A8421B15DD800361159 /* RootViewController.m in Sources */,
@@ -663,20 +826,27 @@
 				489A7A4B21B15A7600361159 /* main.m in Sources */,
 				489A7AA221B1672C00361159 /* UIImage+Addition.m in Sources */,
 				4800CCA021B28F1100D2EE9F /* RegisterViewController.m in Sources */,
+				484261D321B4FB31009021CE /* SecondHandGoodsViewController.m in Sources */,
 				489A7ABC21B26FD600361159 /* UIButton+Addition.m in Sources */,
+				484261D721B4FB6C009021CE /* UserFeedbackViewController.m in Sources */,
+				484261C721B4FA30009021CE /* MyDynamicViewController.m in Sources */,
 				489A7A9421B164AF00361159 /* MineViewController.m in Sources */,
 				489A7AB121B25EA100361159 /* MineHeaderView.m in Sources */,
 				489A7A8B21B1646B00361159 /* DecorationServiceViewController.m in Sources */,
 				484261B721B4D293009021CE /* CraftsmanCertificationTypeOfWorkView.m in Sources */,
 				484261B121B4BF9B009021CE /* CraftsmanCertificationTypeView.m in Sources */,
+				484261DB21B4FBF0009021CE /* SystemSettingViewControler.m in Sources */,
 				484261A821B4B53B009021CE /* CraftsmanCertificationAddView.m in Sources */,
 				489A7A7021B15AE100361159 /* AppDelegate+Initialization.m in Sources */,
 				489A7AB621B268ED00361159 /* MineOperationView.m in Sources */,
 				489A7ABF21B271B900361159 /* LoginViewController.m in Sources */,
+				484261E421B50B1A009021CE /* MyOrderAllViewController.m in Sources */,
+				484261E121B509E4009021CE /* WDTabLayout.m in Sources */,
 				489A7A8821B1644300361159 /* HomeViewController.m in Sources */,
 				489A7A9121B164A400361159 /* ShoppingMallViewController.m in Sources */,
 				484261AE21B4BD43009021CE /* CraftsmanCertificationAddViewController.m in Sources */,
 				484261AB21B4B93F009021CE /* CraftsmanCertificationTableViewCell.m in Sources */,
+				484261CB21B4FA76009021CE /* MyPointsViewController.m in Sources */,
 				484261BD21B4DBDD009021CE /* CraftsmanCertificationUserInfoView.m in Sources */,
 				489A7A3D21B15A7500361159 /* AppDelegate.m in Sources */,
 			);

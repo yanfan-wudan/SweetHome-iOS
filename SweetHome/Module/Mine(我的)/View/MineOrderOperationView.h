@@ -10,7 +10,24 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@class MineOrderOperationView;
+
+typedef NS_ENUM(NSInteger, MineOrderOperationType) {
+    MineOrderOperationTypeWaitForOrder   = 0,   // 待接单
+    MineOrderOperationTypePendingPayment = 1,   // 待付款
+    MineOrderOperationTypeToBeComplete   = 2,   // 待完工
+    MineOrderOperationTypeToBeEvaluated  = 3    // 待评价
+};
+
+@protocol MineOrderOperationViewDelagte <NSObject>
+
+- (void)mineOrderOperationView:(MineOrderOperationView *)view didselectedType:(MineOrderOperationType)type;
+
+@end
+
 @interface MineOrderOperationView : UIView
+
+@property (nonatomic, weak) id <MineOrderOperationViewDelagte> delegate;
 
 @end
 

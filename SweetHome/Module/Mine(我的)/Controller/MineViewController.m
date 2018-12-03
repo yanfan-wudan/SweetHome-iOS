@@ -15,7 +15,7 @@
 // Controller
 #import "LoginViewController.h"
 
-@interface MineViewController () <MineHeaderViewDelegate>
+@interface MineViewController () <MineHeaderViewDelegate, MineOrderOperationViewDelagte>
 
 // UI
 @property (nonatomic, strong) MineHeaderView *tableViewHeaderView;
@@ -36,14 +36,14 @@
     NSArray *lastArray = @[@"工匠认证", @"我的积分", @"我的小窝", @"二手商品", @"用户反馈", @"系统设置"];
     self.titleArray = @[@[@"我的动态"], @[@"我的订单"], lastArray];
     
-    self.vcArray = @[@[@"CraftsmanCertificationViewController"],
-                     @[@"CraftsmanCertificationViewController"],
+    self.vcArray = @[@[@"MyDynamicViewController"],
+                     @[@"MyWorkOrderViewController"],
                      @[@"CraftsmanCertificationViewController",
-                       @"CraftsmanCertificationViewController",
-                       @"CraftsmanCertificationViewController",
-                       @"CraftsmanCertificationViewController",
-                       @"CraftsmanCertificationViewController",
-                       @"CraftsmanCertificationViewController"]];
+                       @"MyPointsViewController",
+                       @"MyHomeViewController",
+                       @"SecondHandGoodsViewController",
+                       @"UserFeedbackViewController",
+                       @"SystemSettingViewControler"]];
 }
 
 - (void)setupNavigationBar {
@@ -97,6 +97,7 @@
 - (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section {
     if (section == 1) {
         MineOrderOperationView *view = [[MineOrderOperationView alloc] init];
+        view.delegate = self;
         return view;
     }
     return nil;
@@ -110,6 +111,7 @@
     }
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     cell.textLabel.text = self.titleArray[indexPath.section][indexPath.row];
+    cell.textLabel.font = [UIFont systemFontOfSize:15];
     return cell;
 }
 
@@ -126,6 +128,12 @@
 - (void)mineHeaderView:(MineHeaderView *)headerView loginButtonTouched:(UIButton *)button {
     LoginViewController *controller = [[LoginViewController alloc] init];
     [self.navigationController pushViewController:controller animated:true];
+}
+
+#pragma mark - MineOrderOperationViewDelagte
+
+- (void)mineOrderOperationView:(MineOrderOperationView *)view didselectedType:(MineOrderOperationType)type {
+    NSLog(@"%ld", type);
 }
 
 @end

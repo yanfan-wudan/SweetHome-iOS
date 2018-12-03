@@ -19,4 +19,6 @@
 
 #import "UserInfo.h"
 
+#import "UIView+Addition.h"
+
 #endif /* PrefixHeader_pch */

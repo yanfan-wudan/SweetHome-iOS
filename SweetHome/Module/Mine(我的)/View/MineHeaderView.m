@@ -28,6 +28,7 @@
 
 // 底部4个按钮
 @property (nonatomic, strong) MineOperationView *bottomOperationView;
+
 @end
 
 @implementation MineHeaderView
@@ -46,6 +47,17 @@
 }
 
 - (void)setupIfWithoutLogin {
+    
+    self.headerImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"qq"]];
+    self.headerImageView.contentMode = UIViewContentModeScaleAspectFit;
+    [self addSubview:self.headerImageView];
+    
+    [self.headerImageView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.bottom.mas_equalTo(self.mas_centerY).mas_offset(-15 * kScreenRate);
+        make.centerX.mas_equalTo(self);
+        make.height.with.mas_equalTo(80 * kScreenRate);
+    }];
+    
     self.loginButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [self.loginButton setTitle:@"登 陆" forState:UIControlStateNormal];
     [self.loginButton setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
@@ -57,20 +69,15 @@
     [self addSubview:self.loginButton];
     
     [self.loginButton mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.center.mas_equalTo(self);
+        make.centerX.mas_equalTo(self);
+        make.top.mas_equalTo(self.mas_centerY).mas_offset(15 * kScreenRate);
         make.height.mas_equalTo(40 * kScreenRate);
         make.width.mas_equalTo(kScreenWidth * 0.45);
     }];
 }
 
 - (void)willMoveToSuperview:(UIView *)newSuperview {
-//    if (ISLogin) {
-//        self.bounds = CGRectMake(0, 0, kScreenWidth, kScreenWidth);
-//    } else {
-//        self.bounds = CGRectMake(0, 0, kScreenWidth, kScreenWidth/2);
-//    }
-    
-     self.bounds = CGRectMake(0, 0, kScreenWidth, kScreenWidth/2);
+     self.bounds = CGRectMake(0, 0, kScreenWidth, 260 * kScreenRate);
 }
 
 - (void)setupBottomView {

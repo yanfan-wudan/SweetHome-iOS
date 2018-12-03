@@ -84,29 +84,29 @@
     
     switch (self.direction) {
         case WDComboBoxControlDirectionBottom:{
-            self.tableView.frame = CGRectMake(CGRectGetMinX(self.sourceView.frame),
+            self.tableView.frame = CGRectMake(CGRectGetMinX(rect),
                                               CGRectGetMaxY(rect),
                                               self.sourceView.frame.size.width,
                                               self.viewHeight);
         }
             break;
         case WDComboBoxControlDirectionTop:{
-            self.tableView.frame = CGRectMake(CGRectGetMinX(self.sourceView.frame),
-                                              CGRectGetMaxY(self.sourceView.frame) - self.viewHeight - self.sourceView.frame.size.height,
+            self.tableView.frame = CGRectMake(CGRectGetMinX(rect),
+                                              CGRectGetMaxY(rect) - self.viewHeight - self.sourceView.frame.size.height,
                                               self.sourceView.frame.size.width,
                                               self.viewHeight);
         }
             break;
         case WDComboBoxControlDirectionLeading:{
-            self.tableView.frame = CGRectMake(CGRectGetMinX(self.sourceView.frame) - self.sourceView.frame.size.width,
-                                              CGRectGetMinY(self.sourceView.frame),
+            self.tableView.frame = CGRectMake(CGRectGetMinX(rect) - self.sourceView.frame.size.width,
+                                              CGRectGetMinY(rect),
                                               self.sourceView.frame.size.width,
                                               self.viewHeight);
         }
             break;
         case WDComboBoxControlDirectionTrailing:{
-            self.tableView.frame = CGRectMake(CGRectGetMinX(self.sourceView.frame) + self.sourceView.frame.size.width,
-                                              CGRectGetMinY(self.sourceView.frame),
+            self.tableView.frame = CGRectMake(CGRectGetMinX(rect) + self.sourceView.frame.size.width,
+                                              CGRectGetMinY(rect),
                                               self.sourceView.frame.size.width,
                                               self.viewHeight);
         }

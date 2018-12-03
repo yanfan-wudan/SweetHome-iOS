@@ -10,7 +10,7 @@
 #import "UIImage+Addition.h"
 #import "UIButton+Addition.h"
 
-@interface CraftsmanCertificationUserInfoView ()
+@interface CraftsmanCertificationUserInfoView () <UITextFieldDelegate>
 
 @property (nonatomic, assign) CGFloat allHeight;
 
@@ -107,12 +107,14 @@
     [self addSubview:self.sexBottomView];
     
     self.nativePlaceChooseTextField = [self textFiledWithPlaceholder:@"籍贯" leftImageName:@"userCenter"];
+    self.nativePlaceChooseTextField.delegate = self;
     [self addSubview:self.nativePlaceChooseTextField];
     
     self.nativePlaceBottomView = [self lineWithBackGroundColor:UIColor.orangeColor];
     [self addSubview:self.nativePlaceBottomView];
     
     self.brithdayChooseTextField = [self textFiledWithPlaceholder:@"出生日期" leftImageName:@"userCenter"];
+    self.brithdayChooseTextField.delegate = self;
     [self addSubview:self.brithdayChooseTextField];
     
     self.brithdayBottomView = [self lineWithBackGroundColor:UIColor.orangeColor];
@@ -125,6 +127,7 @@
     [self addSubview:self.idNumBottomView];
     
     self.registerPlaceChooseTextField = [self textFiledWithPlaceholder:@"现注册地" leftImageName:@"userCenter"];
+    self.registerPlaceChooseTextField.delegate = self;
     [self addSubview:self.registerPlaceChooseTextField];
 }
 
@@ -146,77 +149,77 @@
         make.top.mas_equalTo(self.spaceLine.mas_bottom).mas_offset(10 * kScreenRate);
         make.height.mas_equalTo(30 * kScreenRate);
     }];
-    
+
     [self.nameBottomView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.leading.trailing.mas_equalTo(self.nameTextField);
         make.top.mas_equalTo(self.nameTextField.mas_bottom).mas_offset(3 * kScreenRate);
         make.height.mas_equalTo(1);
     }];
-    
+
     [self.sexLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.leading.mas_equalTo(self).inset(10 * kScreenRate);
         make.top.mas_equalTo(self.nameBottomView.mas_bottom).mas_offset(10 * kScreenRate);
         make.height.mas_equalTo(30 * kScreenRate);
     }];
-    
+
     [self.manButton mas_makeConstraints:^(MASConstraintMaker *make) {
         make.leading.mas_equalTo(self.sexLabel.mas_trailing).mas_offset(10 * kScreenRate);
         make.height.centerY.mas_equalTo(self.sexLabel);
     }];
-    
+
     [self.womanButton mas_makeConstraints:^(MASConstraintMaker *make) {
         make.leading.mas_equalTo(self.manButton.mas_trailing).mas_offset(10 * kScreenRate);
         make.height.centerY.mas_equalTo(self.sexLabel);
     }];
-    
+
     [self.sexBottomView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.leading.trailing.mas_equalTo(self.nameTextField);
         make.top.mas_equalTo(self.sexLabel.mas_bottom).mas_offset(3 * kScreenRate);
         make.height.mas_equalTo(1);
     }];
-    
+
     [self.nativePlaceChooseTextField mas_makeConstraints:^(MASConstraintMaker *make) {
         make.leading.trailing.mas_equalTo(self).inset(10 * kScreenRate);
         make.top.mas_equalTo(self.sexBottomView.mas_bottom).mas_offset(10 * kScreenRate);
         make.height.mas_equalTo(30 * kScreenRate);
     }];
-    
+
     [self.nativePlaceBottomView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.leading.trailing.mas_equalTo(self.nameTextField);
         make.top.mas_equalTo(self.nativePlaceChooseTextField.mas_bottom).mas_offset(3 * kScreenRate);
         make.height.mas_equalTo(1);
     }];
-    
+
     [self.brithdayChooseTextField mas_makeConstraints:^(MASConstraintMaker *make) {
         make.leading.trailing.mas_equalTo(self).inset(10 * kScreenRate);
         make.top.mas_equalTo(self.nativePlaceBottomView.mas_bottom).mas_offset(10 * kScreenRate);
         make.height.mas_equalTo(30 * kScreenRate);
     }];
-    
+
     [self.brithdayBottomView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.leading.trailing.mas_equalTo(self.nameTextField);
         make.top.mas_equalTo(self.brithdayChooseTextField.mas_bottom).mas_offset(3 * kScreenRate);
         make.height.mas_equalTo(1);
     }];
-    
+
     [self.idNumTextField mas_makeConstraints:^(MASConstraintMaker *make) {
         make.leading.trailing.mas_equalTo(self).inset(10 * kScreenRate);
         make.top.mas_equalTo(self.brithdayBottomView.mas_bottom).mas_offset(10 * kScreenRate);
         make.height.mas_equalTo(30 * kScreenRate);
     }];
-    
+
     [self.idNumBottomView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.leading.trailing.mas_equalTo(self.nameTextField);
         make.top.mas_equalTo(self.idNumTextField.mas_bottom).mas_offset(3 * kScreenRate);
         make.height.mas_equalTo(1);
     }];
-    
+
     [self.registerPlaceChooseTextField mas_makeConstraints:^(MASConstraintMaker *make) {
         make.leading.trailing.mas_equalTo(self).inset(10 * kScreenRate);
         make.top.mas_equalTo(self.idNumBottomView.mas_bottom).mas_offset(10 * kScreenRate);
         make.height.mas_equalTo(35 * kScreenRate);
     }];
-    
+
     [self layoutIfNeeded];
     self.allHeight = CGRectGetMaxY(self.registerPlaceChooseTextField.frame);
 }
@@ -247,6 +250,19 @@
     } else {
         self.manButton.selected = false;
     }
+}
+
+- (BOOL)textFieldShouldBeginEditing:(UITextField *)textField {
+    //写你要实现的：页面跳转的相关代码
+    if ([textField isEqual:self.nativePlaceChooseTextField]) {
+        NSLog(@"选择籍贯");
+    } else if ([textField isEqual:self.brithdayChooseTextField]) {
+        NSLog(@"选择生日");
+    } else if ([textField isEqual:self.registerPlaceChooseTextField]) {
+        NSLog(@"选择先注册地");
+    }
+    [self endEditing:true];
+    return NO;
 }
 
 @end

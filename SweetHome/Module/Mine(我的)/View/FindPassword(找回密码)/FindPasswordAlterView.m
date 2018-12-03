@@ -7,7 +7,7 @@
 //
 
 #import "FindPasswordAlterView.h"
-#import "UIView+Addition.h"
+
 
 @interface FindPasswordAlterView ()
 
@@ -49,7 +49,6 @@
     self.containerView.backgroundColor = UIColor.whiteColor;
     self.containerView.layer.cornerRadius = 10;
     [self addSubview:self.containerView];
-    
     
     self.titleLabel = [[UILabel alloc] init];
     self.titleLabel.text = @"重置密码";

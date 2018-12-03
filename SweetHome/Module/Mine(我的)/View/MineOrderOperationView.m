@@ -50,7 +50,15 @@
         button.titleLabel.numberOfLines = 2;
         button.titleLabel.textAlignment = NSTextAlignmentCenter;
         [button wd_buttonLayoutWithSpace:15 layoutStyle:UIButtonLayoutStyleTop];
+        button.tag = 100 + i;
+        [button addTarget:self action:@selector(buttonTouched:) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:button];
+    }
+}
+
+- (void)buttonTouched:(UIButton *)sender {
+    if (self.delegate && [self.delegate respondsToSelector:@selector(mineOrderOperationView:didselectedType:)]) {
+        [self.delegate mineOrderOperationView:self didselectedType:sender.tag-100];
     }
 }
 
